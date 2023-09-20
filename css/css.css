@@ -1,0 +1,108 @@
+/*class-1*/
+*{margin:0;padding:0;}/*RESETA O MARGIN E PADDING EM QUALQUER NAVEGADOR*/
+@font-face{
+	font-family: hindRegular;
+	src: url("../../api/fontes/HindMadurai-Regular.ttf");
+}
+@font-face{
+	font-family: hindSemiBold;
+	src: url("../../api/fontes/HindMadurai-SemiBold.ttf");
+}
+@font-face{
+	font-family: hindBold;
+	src: url("../../api/fontes/HindMadurai-Bold.ttf");
+}
+@font-face{
+	font-family: hindLight;
+	src: url("../../api/fontes/HindMadurai-Light.ttf");
+}
+@font-face{
+	font-family: hindMedium;
+	src: url("../../api/fontes/HindMadurai-Medium.ttf");
+}
+@font-face{
+	font-family: nunito;
+	src: url("../../api/fontes/Nunito-Light.ttf");
+}
+@font-face{
+	font-family: nunitoregular;
+	src: url("../../api/fontes/Nunito-Regular.ttf");
+}
+@font-face{
+	font-family: nunitomedium;
+	src: url("../../api/fontes/Nunito-Medium.ttf");
+}
+@font-face{
+	font-family: nunitosemibold;
+	src: url("../../api/fontes/Nunito-SemiBold.ttf");
+}
+@font-face{
+	font-family: nunitobold;
+	src: url("../../api/fontes/Nunito-Bold.ttf");
+}
+@font-face{
+	font-family: nunitoblack;
+	src: url("../../api/fontes/Nunito-Black.ttf");
+}
+@font-face{
+	font-family: nunitoextrabold;
+	src: url("../../api/fontes/Nunito-ExtraBold.ttf");
+}
+@font-face{
+	font-family: roboto;
+	src: url("../../api/fontes/roboto-v20-latin-regular.woff");
+}
+@font-face{
+	font-family: roboto500;
+	src: url("../../api/fontes/roboto-v20-latin-500.woff");
+}
+@font-face{
+	font-family: roboto700;
+	src: url("../../api/fontes/roboto-v20-latin-700.woff");
+}
+@font-face{
+	font-family: proximaNovaThin;
+	src: url("../../api/fontes/proximaNovaThin.otf");
+}
+@font-face{
+	font-family: proximaNovaLight;
+	src: url("../../api/fontes/proximaNovaLight.otf");
+}
+@font-face{
+	font-family: proximaNovaRegular;
+	src: url("../../api/fontes/proximaNovaRegular.otf");
+}
+@font-face{
+	font-family: proximaNovaBold;
+	src: url("../../api/fontes/proximaNovaBold.otf");
+}
+
+@media only screen and (min-width: 913px){/*desktop*/
+	.setaCarrossel{width:50px;display:flex;align-items:center;}
+}
+@media only screen and (max-width: 913px){/*mobile*/
+	.setaCarrossel{display:none;}
+}
+
+/* width */
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+
+/*INPUT*/
+input[type=number]::-webkit-inner-spin-button{ 
+	-webkit-appearance: none;
+    }
+input[type=number]{ 
+	-moz-appearance: textfield;
+	appearance: textfield;
+	}
