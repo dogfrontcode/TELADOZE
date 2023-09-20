@@ -81,6 +81,7 @@
     <head>
         <title>Zé Delivery ECommerce</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../../css/css.css?time=1695168462">
         <script type="text/javascript" src="../../js/jquery.js"></script>
         <script type="text/javascript" src="../js/js.js"></script>
@@ -93,7 +94,6 @@
         <meta name="format-detection" content="telephone=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="" sizes='16x16'>
     </head>
     <body id='body' style='margin:0;width:100%;-webkit-text-size-adjust:none;'>
@@ -115,7 +115,7 @@
         </div>
         <div id='avisoDeCookies' class='avisoDeCookies' style='display:none;position:fixed;border-radius:7px;z-index:102;background-color:#ffffff;-webkit-box-shadow: 0px 0px 10px 2px rgba(199,199,199,1);-moz-box-shadow: 0px 0px 10px 2px rgba(199,199,199,1);box-shadow: 0px 0px 10px 2px rgba(199,199,199,1);'>
             <div style='margin:20px 20px 0 20px;flex-grow:1;text-align:left;word-break:break-word;'>
-                <span style='font-family:nunitoregular;font-size:14px;color:#4c5060;line-height:10px;'>
+                <span style='font-family:sans-serif;font-size:14px;color:#4c5060;line-height:10px;'>
                     <b>cookies: </b>
                     nós usamos cookies para personalizar anúncios e melhorar a sua experiência em nosso site. Ao continuar navegando você concorda com a nossa política de privacidade.
                 </span>
@@ -197,11 +197,11 @@
             <div id='campoMenu' class='menu' style='display:none;position:absolute;top:71px;left:0;height:100vh;z-index:100;background-color:#ffffff;'>
                 <div style='margin-top:-10px;margin-left:22px;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #ffffff;'></div>
                 <div style='margin-top:25px;height:45px;display:flex;align-items:center;'>
-                    <span onclick='irPara("inicio");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Início</span>
+                    <span onclick='redirecionarParaCategoria("../05927587/inicio.html");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Início</span>
                 </div>
                 <div style='width:100%;max-height:40vh;overflow-y:scroll;'>
                     <div style='height:45px;display:flex;align-items:center;'>
-                        <span onclick='buscar("categoria","Cerveja");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Cerveja</span>
+                        <span onclick='redirecionarParaCategoria("../categoria/cerveja");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Cerveja</span>
                     </div>
                     <div style='height:45px;display:flex;align-items:center;'>
                         <span onclick='buscar("categoria","Barril");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Barril</span>

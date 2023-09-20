@@ -26,3 +26,9 @@
     .texto2Footer{text-align:center;}
     }
     
+	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+
+	body {
+	  font-family: 'Nunito', sans-serif;
+	}
+	

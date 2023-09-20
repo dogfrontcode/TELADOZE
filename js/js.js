@@ -1,3 +1,16 @@
+
+// minhas novas funções
+function redirecionarParaCategoria(categoria) {
+    // Mostrar algum tipo de efeito de carregamento
+    // ...
+
+    // Redirecionar para a página correspondente
+    window.location.href = categoria.toLowerCase() + '.html';
+}
+
+// fim da minhas funções criadas
+
+
 function outputFilter(str){
 	str = str.replaceAll('"','--||aspasDupla||--');
 	str = str.replaceAll("'",'--||aspasSimples||--');
