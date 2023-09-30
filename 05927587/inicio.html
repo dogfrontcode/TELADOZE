@@ -81,8 +81,11 @@
     <head>
         <title>Zé Delivery ECommerce</title>
         <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../../css/css.css?time=1695168462">
+        <link rel="stylesheet" href="../css/css.css">
         <script type="text/javascript" src="../../js/jquery.js"></script>
         <script type="text/javascript" src="../js/js.js"></script>
         <link rel="stylesheet" href="../06027587/css/layout1/inicio.css?time=1695168462">
@@ -153,7 +156,7 @@
                     <div class='loader' style='margin:0 auto;'></div>
                 </div>
                 <div style='margin:0 auto;text-align:center;display:flex;align-items:center;'>
-                    <span style='margin:0 auto;font-family:nunitoregular;font-size:16px;color:#4c5060;'>Aguarde...</span>
+                    <span style='margin:0 auto;font-family:Nunito Sans;font-size:16px;color:#4c5060;'>Aguarde...</span>
                 </div>
             </div>
         </div>
@@ -172,7 +175,7 @@
                     <i onclick='abrirPesquisa();' style="margin:0 0 0 20px;font-size:30px;color:#7c8393;cursor:pointer;" class="material-icons">&#xe8b6;</i>
                     <i onclick='irPara("carrinho");' style="margin:0 20px 0 10px;font-size:30px;color:#7c8393;cursor:pointer;" class="material-icons">&#xe8cc;</i>
                     <div id='produtosNoCarrinho' style='margin:-20px 15px 0 -30px;position:relative;width:15px;height:15px;border-radius:50%;display:none;align-items:center;background-color:#ffffff;'>
-                        <span id='quantidadeProdutosNoCarrinho' onclick='irPara("inicio");' style='margin:0 auto;font-family:nunitoregular;font-size:12px;color:#222222;'>1</span>
+                        <span id='quantidadeProdutosNoCarrinho' onclick='irPara("inicio");' style='margin:0 auto;font-family:Nunito Sans;font-size:12px;color:#222222;'>1</span>
                     </div>
                 </div>
             </div>
@@ -182,7 +185,7 @@
             <div id='campoPesquisar' style='display:none;position:absolute;top:0;left:0;width:100%;height:100vh;z-index:100;background-color:#ffffff;'>
                 <div style='width:100%;background-color:#1c1c1c;display:flex;align-items:center;'>
                     <div style='margin:10px 0 10px 20px;flex-grow:1;height:45px;background-color:#ffffff;display:flex;align-items:center;border-radius:22.5px;'>
-                        <input type='text' id='pesquisa' onkeyup='pesquisar();' style='margin-left:20px;flex-grow:1;height:35px;border:none;background-color:#ffffff;outline:0;font-family:nunitoregular;font-size:14px;color:#121212;' placeholder='O que você está buscando?'/>
+                        <input type='text' id='pesquisa' onkeyup='pesquisar();' style='margin-left:20px;flex-grow:1;height:35px;border:none;background-color:#ffffff;outline:0;font-family:Nunito Sans;font-size:14px;color:#121212;' placeholder='O que você está buscando?'/>
                         <div style='margin-right:7px;width:64px;height:35px;background-color:#1c1c1c;display:flex;align-items:center;border-radius:17.5px;'>
                             <i onclick='pesquisar();' class="material-icons" style="margin:0 auto;font-size:26px;color:#ffffff;cursor:pointer;">&#xe8b6;</i>
                         </div>
@@ -197,34 +200,34 @@
             <div id='campoMenu' class='menu' style='display:none;position:absolute;top:71px;left:0;height:100vh;z-index:100;background-color:#ffffff;'>
                 <div style='margin-top:-10px;margin-left:22px;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #ffffff;'></div>
                 <div style='margin-top:25px;height:45px;display:flex;align-items:center;'>
-                    <span onclick='redirecionarParaCategoria("../05927587/inicio.html");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Início</span>
+                    <span onclick='redirecionarParaCategoria("../05927587/inicio.html");' style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;cursor:pointer;'>Início</span>
                 </div>
                 <div style='width:100%;max-height:40vh;overflow-y:scroll;'>
                     <div style='height:45px;display:flex;align-items:center;'>
-                        <span onclick='redirecionarParaCategoria("../categoria/cerveja");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Cerveja</span>
+                        <span onclick='redirecionarParaCategoria("../categoria/cerveja");' style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;cursor:pointer;'>Cerveja</span>
                     </div>
                     <div style='height:45px;display:flex;align-items:center;'>
-                        <span onclick='buscar("categoria","Barril");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Barril</span>
+                        <span onclick='buscar("categoria","Barril");' style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;cursor:pointer;'>Barril</span>
                     </div>
                     <div style='height:45px;display:flex;align-items:center;'>
-                        <span onclick='buscar("categoria","Combos");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Combos</span>
+                        <span onclick='buscar("categoria","Combos");' style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;cursor:pointer;'>Combos</span>
                     </div>
                     <div style='height:45px;display:flex;align-items:center;'>
-                        <span onclick='buscar("categoria","Whisky");' style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;cursor:pointer;'>Whisky</span>
+                        <span onclick='buscar("categoria","Whisky");' style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;cursor:pointer;'>Whisky</span>
                     </div>
                 </div>
                 <div style='margin:10px 0 0 0;width:100%;height:1px;background-color:#e7e7e7;'></div>
                 <div id='precisaDeAjuda' style='display:block;'>
                     <div style='margin-top:10px;height:45px;display:flex;align-items:center;'>
-                        <span style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;'>Precisa de ajuda ?</span>
+                        <span style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;'>Precisa de ajuda ?</span>
                     </div>
                     <div style='margin-top:10px;height:45px;display:flex;align-items:center;'>
                         <i class="material-icons" style='margin:0 0 0 20px;font-size:28px;color:#7c8393;'>&#xe0b0;</i>
-                        <span style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;'>(11) 9 3383-6602</span>
+                        <span style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;'>(11) 9 3383-6602</span>
                     </div>
                     <div style='height:45px;display:flex;align-items:center;'>
                         <i class="material-icons" style='margin:0 0 0 20px;font-size:28px;color:#7c8393;'>&#xe0e1;</i>
-                        <span style='margin:0 0 0 20px;font-family:nunitoregular;font-size:16px;color:#7c8393;'>
+                        <span style='margin:0 0 0 20px;font-family:Nunito Sans;font-size:16px;color:#7c8393;'>
                             <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="51323e3f2530253e112b347f35343d3827342328">[email &#160;protected]</a>
                         </span>
                     </div>
@@ -234,19 +237,19 @@
         <main>
             <div style='padding:0;border-radius:0;display:block;flex-grow:1;background-color:#f5f5f5;' class='bannerDesktop'>
                 <div style='flex-grow:1;display:none;align-items:center;'>
-                    <span style='margin:20px 0 5px 10px;display:block;font-family:nunitosemibold;font-size:22px;color:#4c5060;'></span>
+                    <span style='margin:20px 0 5px 10px;display:block;font-family:Nunito Sans;font-size:22px;color:#4c5060;'></span>
                 </div>
                 <div style='flex-grow:1;display:none;align-items:center;'>
-                    <span style='margin:0 0 10px 10px;display:block;font-family:nunitoregular;font-size:16px;color:#4c5060;'></span>
+                    <span style='margin:0 0 10px 10px;display:block;font-family:Nunito Sans;font-size:16px;color:#4c5060;'></span>
                 </div>
                 <div onclick='abrirLink2("");' class='imagemDoBanner' style='cursor:pointer;display:flex;border-radius:0;margin:0;flex-grow:1;background: url("https://conteudo.imguol.com.br/c/noticias/a3/2021/11/11/zeca-pagodinho-em-comercial-do-ze-delivery-1636632525035_v2_4x3.jpg") no-repeat center;background-size:cover;'></div>
             </div>
             <div style='margin:0;border-radius:0;width:100%;background-color:#f5f5f5;text-align:left;padding:15px 0;'>
                 <div style='flex-grow:1;display:flex;align-items:center;'>
-                    <span style='margin:0 0 0 20px;display:block;font-family:nunitosemibold;font-size:22px;color:#4c5060;'>Promoção de hoje</span>
+                    <span style='margin:0 0 0 20px;display:block;font-family:Nunito Sans;font-size:22px;color:#4c5060;'>Promoção de hoje</span>
                 </div>
                 <div style='flex-grow:1;display:flex;align-items:center;'>
-                    <span style='margin:0 0 0 20px;display:block;font-family:nunitoregular;font-size:16px;color:#4c5060;'>Confira nossas promoções de hoje</span>
+                    <span style='margin:0 0 0 20px;display:block;font-family:Nunito Sans;font-size:16px;color:#4c5060;'>Confira nossas promoções de hoje</span>
                 </div>
                 <div class='carrosselProduto' style='margin:20px;'></div>
             </div>
@@ -258,10 +261,10 @@
             <span id='quantidadeDeImagensSlide1' style='display:none;'>2</span>
             <div style='margin:0;border-radius:0;width:100%;background-color:#fce803;text-align:left;padding:0 0 0 0;'>
                 <div style='flex-grow:1;display:none;align-items:center;'>
-                    <span style='margin:0 0 0 20px;display:block;font-family:nunitosemibold;font-size:22px;color:#4c5060;'></span>
+                    <span style='margin:0 0 0 20px;display:block;font-family:Nunito Sans;font-size:22px;color:#4c5060;'></span>
                 </div>
                 <div style='flex-grow:1;display:none;align-items:center;'>
-                    <span style='margin:5px 0 10px 20px;display:block;font-family:nunitoregular;font-size:16px;color:#4c5060;'></span>
+                    <span style='margin:5px 0 10px 20px;display:block;font-family:Nunito Sans;font-size:16px;color:#4c5060;'></span>
                 </div>
                 <span id='linkSlide1' style='display:none;'>https://assets.propmark.com.br/uploads/2023/03/Untitled--7-.png</span>
                 <div onclick='abrirLinkSlide();' id='imagemSlide1' class='imagemDoSlide' style='cursor:pointer;border-radius:0;margin:0;flex-grow:1;display:flex;align-items:center;background: url("https://assets.propmark.com.br/uploads/2023/03/Untitled--7-.png") no-repeat center;background-size:cover;'></div>
@@ -283,26 +286,26 @@
             </script>
             <div style='padding:25px;border-radius:0;display:block;flex-grow:1;background-color:#f5f5f5;' class='bannerDesktop'>
                 <div style='flex-grow:1;display:none;align-items:center;'>
-                    <span style='margin:0 0 0 10px;display:block;font-family:nunitosemibold;font-size:22px;color:#4c5060;'></span>
+                    <span style='margin:0 0 0 10px;display:block;font-family:Nunito Sans;font-size:22px;color:#4c5060;'></span>
                 </div>
                 <div style='flex-grow:1;display:none;align-items:center;'>
-                    <span style='margin:0 0 0 10px;display:block;font-family:nunitoregular;font-size:16px;color:#4c5060;'></span>
+                    <span style='margin:0 0 0 10px;display:block;font-family:Nunito Sans;font-size:16px;color:#4c5060;'></span>
                 </div>
                 <div onclick='abrirLink2("");' class='imagemDoBanner' style='cursor:pointer;display:flex;border-radius:0;margin:0;flex-grow:1;background: url("https://www.botecoecerveja.com.br/wp-content/uploads/2023/03/IMG_20230314_132321_889_x_500_pixel.png") no-repeat center;background-size:cover;'></div>
             </div>
             <div style='padding:10px;border-radius:0;display:block;flex-grow:1;background-color:#f5f5f5;' class='bannerDesktop'>
                 <div style='flex-grow:1;display:flex;align-items:center;'>
-                    <span style='margin:0 10px;display:block;font-family:nunitosemibold;font-size:22px;color:#737b97;'>#ZÉ ENTREGA TUUUDO!</span>
+                    <span style='margin:0 10px;display:block;font-family:Nunito Sans;font-size:22px;color:#737b97;'>#ZÉ ENTREGA TUUUDO!</span>
                 </div>
                 <div style='flex-grow:1;display:flex;align-items:center;'>
-                    <span style='margin:0 10px;display:block;font-family:nunitoregular;font-size:16px;color:#737b97;'>Somos uma empresa brasileira de tecnologia com 7 anos, mais de 700 pessoas incríveis (e contando) e já consolidada como o maior delivery de bebidas do mundo. O Zé já entregou 44 milhões de pedidos em 2021, está presente em todos os estados do Brasil e expandindo também em outras direções.</span>
+                    <span style='margin:0 10px;display:block;font-family:Nunito Sans;font-size:16px;color:#737b97;'>Somos uma empresa brasileira de tecnologia com 7 anos, mais de 700 pessoas incríveis (e contando) e já consolidada como o maior delivery de bebidas do mundo. O Zé já entregou 44 milhões de pedidos em 2021, está presente em todos os estados do Brasil e expandindo também em outras direções.</span>
                 </div>
                 <div onclick='abrirLink2("");' class='imagemDoBanner' style='cursor:pointer;display:none;border-radius:10px;margin:10px;flex-grow:1;background: url("") no-repeat center;background-size:cover;'></div>
             </div>
             <div style='width:100%;background-color:#ffffff;text-align:center;padding:50px 0;'>
                 <i class="fa fa-cart-arrow-down" style="margin:0 auto;font-size:28px;color:#7c8393;"></i>
                 <span style='display:block;margin-top:5px;font-family:nunitobold;font-size:16px;color:#238800;'>Satisfação ou Reembolso</span>
-                <span style='display:block;margin-top:5px;font-family:nunitoregular;font-size:14px;color:#7c8393;'>Se você não ficar satisfeito devolvemos o seu dinheiro.</span>
+                <span style='display:block;margin-top:5px;font-family:Nunito Sans;font-size:14px;color:#7c8393;'>Se você não ficar satisfeito devolvemos o seu dinheiro.</span>
                 <div style='margin:10px auto;width:40px;display:flex;align-items:center;'>
                     <script>
                         b = 1;
@@ -345,13 +348,13 @@
                 </div>
                 <div class='texto1Footer' style='display:block;margin:20px 20px 0 20px;flex-grow:1;'>
                     <span style='display:block;font-family:nunitobold;font-size:14px;color:#7c7c7c;'>ATENDIMENTO AO CLIENTE</span>
-                    <span style='margin-top:5px;display:block;font-family:nunitoregular;font-size:14px;color:#7c7c7c;'>
+                    <span style='margin-top:5px;display:block;font-family:Nunito Sans;font-size:14px;color:#7c7c7c;'>
                         WhatsApp: (11) 9 3383-6602<br>
                         E-mail: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="395a56574d584d5679435c175d5c55504f5c4b40">[email &#160;protected]</a>
                     </span>
                 </div>
                 <div class='texto2Footer' style='margin:40px 20px 0 20px;flex-grow:1;'>
-                    <span style='display:block;font-family:nunitoregular;font-size:14px;color:#7c7c7c;'>Aceitamos</span>
+                    <span style='display:block;font-family:Nunito Sans;font-size:14px;color:#7c7c7c;'>Aceitamos</span>
                 </div>
                 <div style='border-radius:0 0 7px 7px;flex-grow:1;height:60px;display:flex;align-items:center;'>
                     <i class="fa fa-cc-visa" style="margin:0 10px 0 auto;font-size:34px;color:#ffffff;"></i>
@@ -362,7 +365,7 @@
                     <i class="fa fa-cc-diners-club" style="margin:0 auto 0 0;font-size:34px;color:#ffffff;"></i>
                 </div>
                 <div style='margin:35px 20px 0 20px;flex-grow:1;text-align:center;word-wrap:break-all;'>
-                    <span style='display:block;font-family:nunitoregular;font-size:14px;color:#7c7c7c;'>Zé Delivery | 17.182.458/0001-17 - Zé Delivery LTDA</span>
+                    <span style='display:block;font-family:Nunito Sans;font-size:14px;color:#7c7c7c;'>Zé Delivery | 17.182.458/0001-17 - Zé Delivery LTDA</span>
                 </div>
                 <div style='height:50px;'></div>
             </div>
